@@ -17,3 +17,20 @@
         a:hover {
             text-decoration: underline;
         }
+
+
+        .container {
+    display: flex;
+    justify-content: space-around; /* horizontal alignment */
+    align-items: center;           /* vertical alignment */
+    height: 200px;
+    border: 1px solid black;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 50px;
+}
